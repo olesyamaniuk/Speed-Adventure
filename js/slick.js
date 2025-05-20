@@ -1,5 +1,5 @@
 $(function () {
-  $(".e-k-gallery-list").slick({
+  $(".e-l-gallery-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -10,27 +10,13 @@ $(function () {
     dots: false,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".e-k-gallery-list-left",
-    nextArrow: ".e-k-gallery-list-right",
+    prevArrow: ".e-l-gallery-list-left",
+    nextArrow: ".e-l-gallery-list-right",
   });
 });
 
 $(function () {
-  $(".e-k-reviews-list").slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    variableWidth: true,
-    autoplay: true,
-    autoplaySpeed: 3500,
-    speed: 1000,
-    cssEase: "linear",
-    prevArrow: ".e-k-reviews-list-left",
-    nextArrow: ".e-k-reviews-list-right",
-  });
-});
-$(function () {
-  $(".e-k-why-list").slick({
+  $(".e-l-why-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -40,7 +26,22 @@ $(function () {
     speed: 1000,
     dots: false,
     cssEase: "linear",
-    prevArrow: ".e-k-why-list-left",
-    nextArrow: ".e-k-why-list-right",
+    prevArrow: ".e-l-why-list-left",
+    nextArrow: ".e-l-why-list-right",
+  });
+});
+$(function () {
+  $(".e-l-features-list").slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: true,
+    autoplay: true,
+    autoplaySpeed: 3500,
+    speed: 1000,
+    dots: false,
+    cssEase: "linear",
+    prevArrow: ".e-l-features-list-left",
+    nextArrow: ".e-l-features-list-right",
   });
 });
